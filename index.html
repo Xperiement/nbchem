@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBChem</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+    </div>
+
+    <nav>
+        <div class="wrapper">
+            <img src="./res/NBChem.svg" alt="">
+            <button>Contact</button>
+        </div>
+    </nav>
+
+
+    <section class="hero">
+        <div class="wrapper">
+            <img src="./res/main.svg" alt="">
+            <button>Products</button>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="wrapper">
+            <h1 class="section-title">Most Selling Products</h1>
+            <div class="list">
+                <div class="item">
+                    <div class="title">
+                        Other
+                    </div>
+
+                    <p>Calcium Chloride Powder</p>
+                    <p>Benzal Dehyde</p>
+                    <p>Chlorinated Paraffin Wax</p>
+
+
+                </div>
+                <div class="item">
+                    <div class="title">
+                        Sodium
+                    </div>
+                    <p>Calcium Chloride Powder</p>
+                    <p>Benzal Dehyde</p>
+                    <p>Chlorinated Paraffin Wax</p>
+                    <p>Calcium Chloride Powder</p>
+                    <p>Benzal Dehyde</p>
+                    <p>Chlorinated Paraffin Wax</p>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        Hydrogen
+                        Peroxid
+                    </div>
+                    <p>Calcium Chloride Powder</p>
+                    <p>Benzal Dehyde</p>
+                    <p>Chlorinated Paraffin Wax</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="moreProducts">
+        <div class="wrapper">
+            <h1 class="section-title">More Products</h1>
+            <div class="searchContainer">
+                <label for="search">
+                    <input id="search" type="text" placeholder="Search">
+                    <i class="ri-search-eye-line"></i>
+                </label>
+                <select onchange="initializeVendor()" name="productCategory" id="productCategory">
+                </select>
+
+                <select name="productVendor" id="productVendor">
+                    <option value="none">Vendor</option>
+                </select>
+            </div>
+
+            <div class="productsList">
+                <div class="row rowHead">
+                    <div class="col col1">Product Code</div>
+                    <div class="col col2">Name</div>
+                    <div class="col col3">Pack</div>
+                    <div class="col col4">CAS No.</div>
+                    <div class="col col5">Price</div>
+                </div>
+                <div class="row">
+                    <div class="col col1">618723100xxxxx</div>
+                    <div class="col col2">1-Methyl-2-Pyrrolidone for Chromatography</div>
+                    <div class="col col3">1 lit</div>
+                    <div class="col col4">71-23-8</div>
+                    <div class="col col5">6080</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col1">61866510xxx</div>
+                    <div class="col col2">Acetic Acid for chromatography</div>
+                    <div class="col col3">1 lit</div>
+                    <div class="col col4">64-19-7</div>
+                    <div class="col col5">1370</div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <div class="right">
+                <img src="./res/avatar.svg" alt="">
+                <div class="info">
+                    <h1>Chandan Gxxx</h1>
+                    <p>Owner</p>
+                    <div class="contacts">
+                        <div class="contactItem">
+                            <i class="ri-phone-line"></i>
+                            <p>+91 79087xxxxx</p>
+                        </div>
+                        <div class="contactItem">
+                            <i class="ri-mail-line"></i>
+                            <p>chandanxxxxx@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
